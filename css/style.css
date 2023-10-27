@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Lateef', serif;
+}
+
+body {
+    background-color: #001;
+    display: flex;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.profile h2 {
+    font-size: 20px;
+}
+
+.img-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+    flex-shrink: 0;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+.menu {
+    background-color: #123;
+    width: 60px;
+    height: 105vh;
+    padding: 20px;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.menu:hover {
+    width: 260px;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+    height: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li a {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: .5s;
+    font-size: 30px;
+}
+
+.active {
+    font-size: 22px;
+}
+
+ul li a:hover, .active {
+    background-color: #ffffff55;
+}
+
+
+
+.log-out {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.log-out a {
+    background-color: red;
+    font-size: 26px;
+}
+
+ul li a i {
+    font-size: 30px;
+}
+
+
+.content {
+    width: 100%;
+}
+
+.title-info {
+    background-color: rgb(4, 121, 237);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+
+
+.data-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 10px;
+}
+
+.data-info a {
+    display: flex;
+    background-color: #123;
+    height: 200px;
+    flex-basis: 49%;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.data-info .box {
+    background-color: #123;
+    height: 200px;
+    flex-basis: 49%;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.data-info .box:hover {
+    background-color: #ffffff55;
+}
+
+
+.data-info .box i {
+    font-size: 40px;
+}
+
+.data-info .box .data {
+    text-align: center;
+}
+
+.data-info .box .data span {
+    font-size: 30px;
+}
+
+table {
+    direction: rtl;
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+
+
+
+/*=========الاعضاء========*/
+.form{
+    text-align: center;
+}
+.form-gruop{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+.form-gruop label{
+    width: 20%;
+    display: block;
+    font-size: 30px;
+}
+.form-gruop input{
+    width: 80%;
+    display: block;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    outline: 0;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.form button{
+padding: 5px 30px;
+border: 2px solid #fff;
+background-color: transparent;
+margin-top: 10px;
+border-radius: 10px;
+font-size: 25px;
+cursor: pointer;
+transition: .5s ease;
+}
+.form button:hover{
+    background-color: #fff;
+    color: #123;
+    padding: 5px 50px;
+    transform: scale(1.1);
+}
+
+.form-content{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+td i{
+    cursor: pointer;
+}

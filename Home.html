@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+      <div class="menu">
+        <ul>
+          <li class="profile">
+            <div class="img-box">
+              <img src="img/Logo.png" alt="logo" />
+            </div>
+            <h2 id="WEl">User</h2>
+          </li>
+  
+          <li>
+            <a href="Home.html">
+              <i class="fas fa-home"></i>
+              <p>الصفحة الرئيسة</p>
+            </a>
+          </li>
+  
+          <li>
+            <a class="active" href="aladaa.html">
+              <i class="fas fa-user-group"></i>
+              <p>الاعضاء</p>
+            </a>
+          </li>
+  
+          <li>
+            <a href="almoshtryat.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <p>المشتريات</p>
+            </a>
+          </li>
+  
+          <li>
+            <a href="almarda.html">
+              <i class="fa-solid fa-head-side-cough"></i>
+              <p>المرضي</p>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html">
+              <i class="fas fa-cog"></i>
+              <p>الاعدادات</p>
+            </a>
+          </li>
+  
+          <li class="log-out">
+            <a id="Logout-user" href="Home.html">
+              <i class="fas fa-sign-out"></i>
+              <p>تسجيل خروج</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+  
+
+    <section class="content">
+        <div class="title-info">
+            <p>dashboard</p>
+            <h1>الصفحة الرئيسة</h1>
+            <i class="fas fa-chart-bar"></i> 
+        </div>
+
+<div class="data-info">
+
+   <a href="aladaa.html"> <div class="box">
+        <i class="fas fa-user-group"></i>
+        <div class="data">
+            <p> الاعضاء</p>
+            <span>100</span>
+        </div>
+    </div>
+  </a>
+
+
+  <a href="almoshtryat.html"> <div class="box">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <div class="data">
+            <p>المشتريات</p>
+            <span>100</span>
+        </div>
+    </div>
+  </a>
+
+
+  <a href="almarda.html"> <div class="box">
+        <i class="fa-solid fa-head-side-cough"></i>
+        <div class="data">
+            <p>المرضي</p>
+            <span>100</span>
+        </div>
+    </div>
+  </a>
+
+
+  <a href="settings.html"> <div class="box">
+        <i class="fas fa-cog"></i>
+        <div class="data">
+            <p>الاعدادات</p>
+            <span>100</span>
+        </div>
+    </div>
+  </a>
+</div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="login/js/main.js"></script>
+    <script type="module" src="js/dataBase.js"></script>
+
+  </body>
+</html>
